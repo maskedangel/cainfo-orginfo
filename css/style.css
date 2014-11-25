@@ -1,0 +1,13 @@
+#menu{
+    font-size: 1.4em;
+    padding: 3%;
+}
+
+.item{
+    padding: 10px;
+}
+.pagina{
+    margin-top: -90px;
+    padding-top: 100px;
+    height: 900px;
+}

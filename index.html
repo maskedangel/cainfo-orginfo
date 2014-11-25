@@ -5,6 +5,8 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estatuto.css">
     <meta name="description" content="Site do CAINFO - Centro acadêmico do curso de Ciência da Computação da UFRJ."/>
 </head>
 
@@ -27,29 +29,34 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-    <header>
-        <div id="navigation" class="navbar navbar-default navbar-fixed-top" >
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-1 col-lg-offset-1">
-                        <a href="#top" id="topo" title="CAINFO">
-                            <img class="imagem" src="imagens/logo-cainfo.png" alt="CAINFO"/>
-                        </a>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <nav id="menu">
-                            <ul class=" list-inline">
-                                <li><a class="item" href="#home">Home</a></li>
-                            </ul>
-                        </nav>
+    <div  id="content">
+        <header>
+            <div id="navigation" class="navbar navbar-default navbar-fixed-top" >
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-1 col-lg-offset-1">
+                            <a href="#top" id="topo" title="CAINFO">
+                                <img class="imagem" src="imagens/logo-cainfo.png" alt="CAINFO"/>
+                            </a>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <nav id="menu">
+                                <ul class=" list-inline">
+                                    <li><a class="item" href="#home">Home</a></li>
+                                    <li><a class="item" href="#membros">Membros</a></li>
+                                    <li><a class="item" href="#estatuto">Estatudo do CAInfo</a></li>
+                                    <li><a class="item" href="#financeiro">Transparência Financeira</a></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <div  id="content">
-        <section id='home'>
-        </section>
+        </header>
+        <section id='home' class="pagina"></section>
+        <section id='membros'></section>
+        <section id='estatuto'></section>
+        <section id='financeiro'></section>
     </div>
 
     <footer class="footer">
